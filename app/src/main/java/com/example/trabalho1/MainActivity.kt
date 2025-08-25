@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // Ajuste de padding
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        // Declaração das views
+
         val etNome = findViewById<EditText>(R.id.etNome)
         val tvHeroi = findViewById<TextView>(R.id.tvHeroi)
         val button = findViewById<Button>(R.id.button)
@@ -33,10 +33,10 @@ class MainActivity : AppCompatActivity() {
             "Não",
             "Talvez")
 
-        // Listener do botão
+
         button.setOnClickListener {
-            val nome = etNome.text.toString().trim()      // Coleta o nome
-            val resposta = respostas[Random.nextInt(respostas.size)]  // Sorteia a resposta
+            val nome = etNome.text.toString().trim()    
+            val resposta = respostas[Random.nextInt(respostas.size)]  
             tvHeroi.text = "$nome, sua resposta é $resposta"
         }
     }
