@@ -86,9 +86,8 @@ Essas ideias deixam o projeto mais completo para portfólio:
 ## 🙋 Autora
 
 **Thais Rodrigues (Belganciaga)**
+
 🔗 LinkedIn: [https://www.linkedin.com/in/thayrodrigues0308/](https://www.linkedin.com/in/thayrodrigues0308/)
+
 🐙 GitHub: [https://github.com/Belganciaga](https://github.com/Belganciaga)
 
-
-
-É só me pedir!
